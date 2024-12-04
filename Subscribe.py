@@ -36,7 +36,7 @@ if __name__ == '__main__':
     # client.on_publish = on_publish
 
     #client.tls_set('root.ca', certfile='c1.crt', keyfile='c1.key')
-    client.connect("3.91.103.79", 1883)
+    client.connect("18.234.70.138", 1883)
 
     client.subscribe("info", 0)
 

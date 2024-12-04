@@ -65,7 +65,7 @@ while 0 == 0:
 
     msgs = [{'topic': "info", 'payload': json.dumps(data)}]
 
-    host = "3.91.103.79"
+    host = "18.234.70.138"
 
     if __name__ == '__main__':
         publish.multiple(msgs, hostname=host)
